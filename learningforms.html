@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basics to Advance of the Forms</title>
+  </head>
+  <body>
+    <form>
+      <!-- <label>Name:</label>
+      <input type="text" />
+      <br /><br />
+      <label>Age:</label>
+      <input type="number" />
+      <br /><br />
+      <label>Password:</label>
+      <input type="password" />
+      <br /><br />
+      <input type="submit" />
+       simply we are creating all the field on the screen by the help of the input.one of the input attribute is "type "(if we assign type of the input as the text then it take all the character ,no.,symbol etc as a text not as a actual numbers or any thing )) -->
+      <!-- creating class form -->
+
+      <label for="fname">First Name:</label>
+      <input type="text" placeholder="Deepakshi" id="fname" name="Firstname" />
+      <br /><br />
+      <label for="Lname">Last Name:</label>
+      <input type="text" placeholder="Chauhan" name="Lastname" id="Lname" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="Email"
+        id="email"
+        placeholder="abc@123"
+        required
+      />
+      <br /><br />
+      <label for="pass">Password:</label>
+      <input type="password" name="password" id="pass" required />
+      <label for="phone">Phone:</label>
+      <input
+        type="tel"
+        name="mobile number"
+        id="phone"
+        placeholder="1234567890"
+        required
+      />
+      <br /><br />
+      <label for="dob">Date of birth:</label>
+      <input type="date" name="DOB" id="dob" />
+      <br /><br />
+      <label for="stream">Stream:</label>
+      <select name="Stream" id="stream">
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="AIML">AIML</option>
+        <option value="Data Science">Data science</option>
+        <option value="Computer science">Computer science</option>
+        <option value="" disabled selected>Select your stream</option>
+      </select>
+      <br /><br />
+      <label for="male">Male:</label>
+      <input type="radio" name="gender" value="male" id="male" />
+      <label for="female">Female:</label>
+      <input type="radio" name="gender" value="female" id="female" />
+      <label for="other">Other:</label>
+      <input type="radio" name="gender" value="other" id="other" />
+      <br /><br />
+      <br />
+      <label for="read">Reading</label>
+      <input type="checkbox" name="interest" value="reading" id="read" />
+      <label for="swim">Swimming</label>
+      <input type="checkbox" name="interest" value="swimming" id="swim" />
+      <label for="dance">Dancing</label>
+      <input type="checkbox" name="interest" value="dancing" id="dance" />
+      <br /><br />
+      <label for="message">Message:</label>
+      <br /><br />
+      <textarea
+        id="message"
+        name="Message"
+        rows="4"
+        cols="30"
+        placeholder="Write..."
+      ></textarea>
+      <br /><br />
+      <label for="photo">Upload your photo:</label>
+      <input type="file" name="files and photos" id="photo" />
+      <br /><br />
+      <input type="submit" value="submit" />
+      <br /><br />
+      <input type="reset" value="clear file" />
+      <br /><br />
+      <input type="sumbit" value="submit" disabled />
+    </form>
+  </body>
+</html>
