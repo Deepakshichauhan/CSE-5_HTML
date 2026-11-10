@@ -1,3 +1,10 @@
-form {
-  background-color: rgb(193, 177, 197);
+body {
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+input {
+  color: rgba(208, 102, 167, 0.638);
 }
