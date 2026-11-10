@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./first_css_file.css">
+</head>
+<body>
+    <fieldset>
+    <form action="" name="registrationform">
+      <label for="firstname">First name</label>
+      <input type="text" id="firstname" value="Deepakshi" />
+      <br />
+      <pre></pre>
+      <label for="lastname">Last name</label>
+      <input type="text" id="lastname" placeholder="chauhan" required/>
+      <br />
+      <pre></pre>
+      <label for="age">age</label>
+      <input type="number" id="age" name="age" min="16" max="110">
+      <label for="email">email</label>
+      <input type="email" id="email" />
+      <br />
+      <!-- value ko erase karke type karna hota h but palceholder me nahi -->
+      <label for="phone">phone number</label>
+      <input type="tel" id="phone" minlength="10" maxlength="12"/>
+      <br>
+      <!-- id is unique but class can be duplicate -->
+      <lable for="dob">date of birth</lable>
+      <input type="date" id="dob" />
+       <label for="stream">stream</label>
+       
+<select name="steram" id="stream"  
+<option value="arts">arts</option>
+<option value="maths">maths</option>
+    </select>
+<lable for="gender">gender</lable>
+<input type="radio" id="gender">
+<select name 
+<br>
+<label for="pasward">password</label>
+<input type="password" id="pasward" palceholder="xxxxx">
+<br>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+    </form>
+  </fieldset>
+</body>
+</html>
