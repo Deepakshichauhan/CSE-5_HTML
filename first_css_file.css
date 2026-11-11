@@ -8,3 +8,45 @@
 input {
   color: rgba(208, 102, 167, 0.638);
 } */
+body {
+  /* i transfer it from the google fonts it provide a lot of google fonts ok */
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+h1,
+#home {
+  background-color: aqua;
+  width: 100px;
+  height: 40px;
+  /*(for different padding from different direction ) padding:20px 20px 30px 35px; or*/
+  /*(for defigning padding from (top and bottom )and (left and right)at a time ) padding:20px 20px;or(for defigning padding from the all the direction at a time) */
+  padding: 20px;
+  border: 2px solid black;
+  margin: 20px;
+  text-align: center;
+}
+.other {
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  /* border-color:black;
+         border-style:solid;
+         /* border-width:2px; */
+  /* or at the place of this we can also use */
+  border: 2px solid black;
+  margin: 20px;
+  text-align: center;
+}
+/* h3 {
+  background-color: aqua;
+  width: 100px;
+  height: 30px;
+  border-right: 2px solid black;
+} */
+/* *{
+  margin:0px;
+  padding:0px;
+ } */

@@ -4,42 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      body {
-        /* i transfer it from the google fonts it provide a lot of google fonts ok */
-        font-family: "Caveat", cursive;
-        font-optical-sizing: auto;
-        font-weight: 100;
-        font-style: normal;
-      }
-      h1,
-      #home {
-        background-color: aqua;
-        width: 100px;
-        height: 40px;
-        /*(for different padding from different direction ) padding:20px 20px 30px 35px; or*/
-        /*(for defigning padding from (top and bottom )and (left and right)at a time ) padding:20px 20px;or(for defigning padding from the all the direction at a time) */
-        padding: 20px;
-        border: 2px solid black;
-        margin: 20px;
-      }
-      .other {
-        background-color: aqua;
-        width: 200px;
-        height: 50px;
-        padding: 10px;
-        /* border-color:black;
-         border-style:solid;
-         /* border-width:2px; */
-        /* or at the place of this we can also use */
-        border: 2px solid black;
-        margin: 20px;
-      h3{
-        background-color:aqua;
-        width:30px;height:30px;
-        border-right:2px solid black;
-      }
-    </style>
+    <link rel="stylesheet" href="./first_css_file.css" />
   </head>
   <body>
     <h1>Name</h1>
@@ -70,16 +35,72 @@
       <li>kaju katli</li>
       <li>donouts</li>
     </ol>
-    /*
-    <!-- above there in the style tag we can also write border properties seperately and in the same line both are valid ok  */
-  /* ex-
+
+    <!--above there in the style tag we can also write border properties seperately and in the same line both are valid ok  
+   ex-
  border-width:....px;
  border-style:doted or dashed or solid or etc; 
  border-color:....;
  or at the place of these three properties we can also use this one property
- eg- */
- /* border:10px solid red; */
-    
-    <h3>Deepakshi</h3>
+ eg- 
+  border:10px solid red; -->
+
+    <h3
+      style="
+        background-color: aqua;
+        height: 30px;
+        width: 100px;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 30px 30px;
+        text-align: center;
+        border-radius: 40px;
+      "
+    >
+      Deepakshi
+    </h3>
+    <!-- understanding about the display inline and the block level elements -->
+    <h4
+      style="
+        background-color: aqua;
+        text-align: center;
+        padding: 25px;
+        border: 2px solid black;
+        display: inline;
+        margin: 20px;
+      "
+    >
+      ABES Engineering college
+    </h4>
+    <!-- <br />
+    <span
+      style="background-color: aqua; width: 120px; height: 50px;margin:50px;"
+      >Span is a inline level element</span
+    > -->
+    <br /><br />
+    <h5
+      style="
+        display: inline-block;
+        background-color: aqua;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 20px;
+      "
+    >
+      hello my name is deepakshi
+    </h5>
+    <span
+      style="
+        display: inline-block;
+        background-color: aqua;
+        width: 250px;
+        height: 100px;
+
+        border: 2px solid black;
+
+        box-sizing: border-box;
+      "
+      >hello my name is deepakshi</span
+    >
   </body>
 </html>
