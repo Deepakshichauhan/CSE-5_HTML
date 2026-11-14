@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="course">Course:</label>
+      <select id="course" name="Course">
+        <option value="CSE">CSE</option>
+        <option value="AIML">AIML</option>
+        <option value="Data science">Data science</option>
+        <option value="" disabled selected>Enter your course</option>
+      </select>
+      <br /><br />
+      <label for="message">Feedback:</label>
+      <br />
+      <textarea
+        id="message"
+        name="feedback"
+        rows="4"
+        cols="30"
+        placeholder="Write here...."
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="reset" />
+      <input type="submit" value="Click me" />
+    </form>
+  </body>
+</html>
